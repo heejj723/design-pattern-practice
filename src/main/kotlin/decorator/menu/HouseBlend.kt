@@ -1,4 +1,4 @@
-package decorator
+package decorator.menu
 
 import java.math.BigDecimal
 
@@ -11,6 +11,6 @@ class HouseBlend(
 
 
     override fun cost(): BigDecimal {
-        return super.cost() + BigDecimal.ONE
+        return BigDecimal(7)
     }
 }
