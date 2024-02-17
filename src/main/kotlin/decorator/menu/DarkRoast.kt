@@ -3,6 +3,7 @@ package decorator.menu
 import java.math.BigDecimal
 
 class DarkRoast(
+    override val size: Size
 
 ): Beverage() {
 

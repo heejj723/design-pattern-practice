@@ -3,6 +3,7 @@ package decorator.menu
 import java.math.BigDecimal
 
 class HouseBlend(
+    override val size: Size
 
 ): Beverage() {
 

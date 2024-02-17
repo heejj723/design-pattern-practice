@@ -4,9 +4,9 @@ import decorator.menu.Beverage
 import decorator.menu.Size
 import java.math.BigDecimal
 
-class Mocha(
+class Soy(
     private val beverage: Beverage,
-    override val description: String = beverage.description + "[재료]모카",
+    override val description: String = beverage.description + "[재료] 두유",
     override val size: Size = beverage.size
 ): CondimentDecorator() {
 
@@ -21,5 +21,4 @@ class Mocha(
             else -> BigDecimal(3)
         }
     }
-
 }

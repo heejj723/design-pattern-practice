@@ -4,8 +4,13 @@ import java.math.BigDecimal
 
 abstract class Beverage {
 
-    open val description: String = "음료"
+    abstract val description: String
+    abstract val size: Size
 
-    open abstract fun cost(): BigDecimal
+    abstract fun cost(): BigDecimal
 
+}
+
+enum class Size {
+    TALL, GRANDE, VENTI
 }

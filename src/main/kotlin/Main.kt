@@ -1,3 +1,8 @@
+import decorator.element.Mocha
+import decorator.menu.Beverage
+import decorator.menu.DarkRoast
+import decorator.menu.Espresso
+
 fun main(args: Array<String>) {
     println("Hello World!")
 
